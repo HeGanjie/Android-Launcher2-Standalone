@@ -1,4 +1,3 @@
-
 /*
  * Copyright (C) 2008 The Android Open Source Project
  *
@@ -3691,7 +3690,7 @@ public final class Launcher extends Activity
         // disable clings when running in a test harness
         if(ActivityManager.isRunningInTestHarness()) return false;
 
-        return true;
+        return false; // true
     }
 
     private Cling initCling(int clingId, int[] positionData, boolean animate, int delay) {
